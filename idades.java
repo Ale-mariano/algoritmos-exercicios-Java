@@ -1,3 +1,4 @@
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -27,8 +28,9 @@ public class idades {
 		idade2 = sc.nextInt();
 		
 		media = (idade1 + idade2)/2.0;
+		
 		System.out.println("A idade media de " + nome1 +" e " + nome2 + " eh de " + 
-		String.format("%.1f", media) + "anos " );
+		String.format("%.1f", media) + " anos " );
 		
 		
 		
